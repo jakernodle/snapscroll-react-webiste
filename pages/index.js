@@ -60,17 +60,17 @@ export default function Home() {
           <Mysection
             image={`/images/1.png`}
             headline={`👋 Hi, I'm JohnAnge`}
-            header={'I\'m a:'}
+            header={'I am'}
             showAttributedSubheadline = {true}
             attributedSubheadline = {
-              <div style={{width: '100%', alignItems: 'center', justifyContent: 'center',
+              <div style={{width: '100%', alignItems: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column',
               '@media (max-width: 480px)': {
                 marginLeft: '20'
               },
               }}>
-                <h2 style={{...inlineStyles.previewDivText, marginRight: 0,}}>Lead iOS Developer for <Link href="https://apps.apple.com/pl/app/visa-mobile-online-payments/id1564258838">Visa Mobile</Link> </h2>
-                <h2 style={{...inlineStyles.previewDivText, marginRight: 0,}}>Founder of <Link href="https://www.locallygrown.app">Locally Grown</Link> </h2>
-                <h2 style={{...inlineStyles.previewDivText, marginRight: 0,}}>Consultant</h2>
+                <h2 style={{...inlineStyles.previewDivText, width: '100%',}}>The Lead iOS Developer for <span style={{textDecoration: 'underline'}}><Link href="https://apps.apple.com/pl/app/visa-mobile-online-payments/id1564258838">Visa Mobile</Link></span></h2>
+                <h2 style={{...inlineStyles.previewDivText, width: '100%',}}>The Founder of <span style={{textDecoration: 'underline'}}><Link href="https://www.locallygrown.app">Locally Grown</Link></span> </h2>
+                <h2 style={{...inlineStyles.previewDivText, width: '100%',}}>A Consultant</h2>
               </div>
             }
             goToSectionRef={section2}
@@ -86,6 +86,7 @@ export default function Home() {
                   color: "#fff",
                   fontWeight: "bold",
                   marginRight: 20,
+                  textDecoration: 'none',
                 }}><Link style={{width: '100%', height: '100%'}} href="https://drive.google.com/file/d/1xLUegqNdEWCVW6jH1HBQdy-FD9DyD08x/view?usp=sharing">See Resume</Link> </div>
                 <div style={{
                   borderRadius: 10,
@@ -95,15 +96,17 @@ export default function Home() {
                   color: "#fff",
                   fontWeight: "bold",
                   marginRight: 20,
+                  textDecoration: 'none',
                 }}><Link style={{width: '100%', height: '100%'}} href="mailto:jakernodle@gmail.com">Contact</Link> </div>
-                <div style={{
+                {/*<div style={{
                   borderRadius: 10,
                   backgroundColor: "#34C759",
                   padding: "12px 20px",
                   fontSize: "18px",
                   color: "#fff",
                   fontWeight: "bold",
-                }}><Link style={{width: '100%', height: '100%'}} href="www.johnange.com/about">About Me</Link> </div>
+                  textDecoration: 'none',
+                }}><Link style={{width: '100%', height: '100%'}} href="/about">About Me</Link> </div> */}
               </div>
             }
           />
@@ -129,6 +132,7 @@ export default function Home() {
                   color: "#fff",
                   fontWeight: "bold",
                   marginRight: 20,
+                  textDecoration: 'none',
                 }}><Link style={{width: '100%', height: '100%'}} href="https://testflight.apple.com/join/VlbvxMAE">Download the Beta</Link> </div>
                 <div style={{
                   borderRadius: 10,
@@ -137,6 +141,7 @@ export default function Home() {
                   fontSize: "18px",
                   color: "#fff",
                   fontWeight: "bold",
+                  textDecoration: 'none',
                 }}><Link style={{width: '100%', height: '100%'}} href="https://www.locallygrown.app">Visit Website</Link> </div>
               </div>
             }
@@ -162,6 +167,7 @@ export default function Home() {
                   fontSize: "18px",
                   color: "#fff",
                   fontWeight: "bold",
+                  textDecoration: 'none',
                 }}><Link style={{width: '100%', height: '100%'}} href="https://apps.apple.com/pl/app/visa-mobile-online-payments/id1564258838">View in AppStore</Link> </div>
               </div>
             }
@@ -187,6 +193,7 @@ export default function Home() {
                   fontSize: "18px",
                   color: "#fff",
                   fontWeight: "bold",
+                  textDecoration: 'none',
                 }}><Link style={{width: '100%', height: '100%'}} href="https://apps.apple.com/us/app/rella-social-media-management/id1592004181">View in AppStore</Link> </div>
                 
               </div>
