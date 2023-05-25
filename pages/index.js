@@ -41,7 +41,8 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet"></link>
-        <Script
+      </Head>
+      <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-3R94Z83ZT5"
             strategy="afterInteractive"
           />
@@ -54,7 +55,6 @@ export default function Home() {
             gtag('config', 'G-3R94Z83ZT5');
           `}
         </Script>
-      </Head>
       <div className={`container ${styles.container}`}>
         <div ref={section1}>
           <Mysection
