@@ -28,6 +28,7 @@ export default function Home() {
   const section2 = useRef();
   const section3 = useRef();
   const section4 = useRef();
+  const section5 = useRef();
   function scrollTo(section) {
     section.current.scrollIntoView({ behavior: "smooth" });
   }
@@ -181,7 +182,7 @@ export default function Home() {
             showAttributedSubheadline = {false}
             subHeadlineText = {'Digital workspace for creators.'}
             paragraphText={'Rella is the only tool needed to grow your social media and manage your content with our all-in-one social media management and planning tool.'}
-            goToSectionRef={section1}
+            goToSectionRef={section5}
             scrollTo={scrollTo}
             showArrow={false}
             buttons = {
@@ -195,6 +196,33 @@ export default function Home() {
                   fontWeight: "bold",
                   textDecoration: 'none',
                 }}><Link style={{width: '100%', height: '100%'}} href="https://apps.apple.com/us/app/rella-social-media-management/id1592004181">View in AppStore</Link> </div>
+                
+              </div>
+            }
+          />
+        </div>
+        <div ref={section5}>
+          <Mysection
+            image={`/images/trailblazerwebphoto.png`}
+            headline={`A Software Consultant`}
+            header={'Trailblazers'}
+            showAttributedSubheadline = {false}
+            subHeadlineText = {'All the best trails of the Triangle in the palm of your hand.'}
+            paragraphText={'Triangle Trailblazer is a program of Triangle Trails that is designed to engage residents and encourage all of us to get outdoors and explore the extensive regional greenway network. As we launch the program, we will begin by featuring ONE signature greenway in each of the 15 counties. We want you to explore each of these 15 greenways, and as part of your journey, please be sure to stop, eat, drink and shop at businesses in the communities that host these greenways. The app is coming soon so you can get outside and explore these wonderful greenways.'}
+            goToSectionRef={section1}
+            scrollTo={scrollTo}
+            showArrow={false}
+            buttons = {
+              <div style={inlineStyles.appPreviewButtonsRowDiv}>
+                 <div style={{
+                  borderRadius: 10,
+                  backgroundColor: "#34C759",
+                  padding: "12px 20px",
+                  fontSize: "18px",
+                  color: "#fff",
+                  fontWeight: "bold",
+                  textDecoration: 'none',
+                }}><Link style={{width: '100%', height: '100%'}} href="https://www.triangletrailsnc.com/trailblazerapp">Visit Website</Link> </div>
                 
               </div>
             }
