@@ -71,7 +71,7 @@ export default function Home() {
               }}>
                 <h2 style={{...inlineStyles.previewDivText, width: '100%',}}>The Lead iOS Developer for <span style={{textDecoration: 'underline'}}><Link href="https://apps.apple.com/pl/app/visa-mobile-online-payments/id1564258838">Visa Mobile</Link></span></h2>
                 <h2 style={{...inlineStyles.previewDivText, width: '100%',}}>The Founder of <span style={{textDecoration: 'underline'}}><Link href="https://www.locallygrown.app">Locally Grown</Link></span> </h2>
-                <h2 style={{...inlineStyles.previewDivText, width: '100%',}}>A Consultant</h2>
+                <h2 style={{...inlineStyles.previewDivText, width: '100%',}}>An App Development Consultant</h2>
               </div>
             }
             goToSectionRef={section2}
@@ -184,7 +184,7 @@ export default function Home() {
             paragraphText={'Rella is the only tool needed to grow your social media and manage your content with our all-in-one social media management and planning tool.'}
             goToSectionRef={section5}
             scrollTo={scrollTo}
-            showArrow={false}
+            showArrow={true}
             buttons = {
               <div style={inlineStyles.appPreviewButtonsRowDiv}>
                  <div style={{
@@ -204,7 +204,7 @@ export default function Home() {
         <div ref={section5}>
           <Mysection
             image={`/images/trailblazerwebphoto.png`}
-            headline={`A Software Consultant`}
+            headline={`An App Development Consultant`}
             header={'Trailblazers'}
             showAttributedSubheadline = {false}
             subHeadlineText = {'Trails of the Triangle in the palm of your hand.'}
