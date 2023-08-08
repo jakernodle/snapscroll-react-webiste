@@ -207,8 +207,8 @@ export default function Home() {
             headline={`A Software Consultant`}
             header={'Trailblazers'}
             showAttributedSubheadline = {false}
-            subHeadlineText = {'All the best trails of the Triangle in the palm of your hand.'}
-            paragraphText={'Triangle Trailblazer is a program of Triangle Trails that is designed to engage residents and encourage all of us to get outdoors and explore the extensive regional greenway network. As we launch the program, we will begin by featuring ONE signature greenway in each of the 15 counties. We want you to explore each of these 15 greenways, and as part of your journey, please be sure to stop, eat, drink and shop at businesses in the communities that host these greenways. The app is coming soon so you can get outside and explore these wonderful greenways.'}
+            subHeadlineText = {'Trails of the Triangle in the palm of your hand.'}
+            paragraphText={'Triangle Trailblazer is a program of Triangle Trails that is designed to engage residents and encourage all of us to get outdoors and explore the extensive regional greenway network. The app is coming soon so you can get outside and explore these wonderful greenways.'}
             goToSectionRef={section1}
             scrollTo={scrollTo}
             showArrow={false}
