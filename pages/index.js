@@ -134,7 +134,7 @@ export default function Home() {
                   fontWeight: "bold",
                   marginRight: 20,
                   textDecoration: 'none',
-                }}><Link style={{width: '100%', height: '100%'}} href="https://testflight.apple.com/join/VlbvxMAE">Download the Beta</Link> </div>
+                }}><Link style={{width: '100%', height: '100%'}} href="https://apps.apple.com/us/app/locally-grown/id6447645521">View in AppStore</Link> </div>
                 <div style={{
                   borderRadius: 10,
                   backgroundColor: "#34C759",
