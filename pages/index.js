@@ -36,8 +36,8 @@ export default function Home() {
     <StyleRoot>
     <div>
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="JohnAnge Kernodle iOS App Consultant" />
+        <title>JohnAnge Kernodle</title>
+        <meta name="description" content="JohnAnge Kernodle - Founder & iOS App Consultant" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
