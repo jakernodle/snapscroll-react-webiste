@@ -42,6 +42,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet"></link>
+        <meta name="keywords" content="app,developer,mobile,consultant,North,Carolina,software,design,ai,ml,raleigh,NC,Locally,Grown,CTO" />
       </Head>
       <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-3R94Z83ZT5"
