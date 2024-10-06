@@ -99,7 +99,7 @@ export default function Mysection({
   }, []);
   return (
     <StyleRoot>
-    <div className={styles.section} style = {{background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}} ref={sectionRef}>
+    <div className={styles.section} style = {{background: '#171717', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}} ref={sectionRef}>
       <div className={styles.copy}>
         <h2 ref={headlineRef}>{headline}</h2>
       </div>
