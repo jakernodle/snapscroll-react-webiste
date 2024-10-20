@@ -140,7 +140,7 @@ export default function Home() {
             header={'Topaz Labs'}
             showAttributedSubheadline = {false}
             subHeadlineText = {'The worlds best Ai Image Enhancement'}
-            paragraphText={`Topaz Labs has created the worlds most performant GANN and stable diffusion models for image enhancement. I'm bringing their models to mobile devices.`}
+            paragraphText={`Topaz Labs has created the worlds best deep learning models for image enhancement. I'm bringing their models to mobile.`}
             goToSectionRef={section3}
             scrollTo={scrollTo}
             showArrow={true}
@@ -212,7 +212,7 @@ export default function Home() {
             header={'Visa Mobile'}
             showAttributedSubheadline = {false}
             subHeadlineText = {'Easy online payments.'}
-            paragraphText={'Once you sign up, all you need to do to pay online with your Visa card is to enter your phone number and confirm the payment in the app. It’s fast, safe and convenient.'}
+            paragraphText={'Once you sign up, all you need to do to pay online with your Visa card is to enter your phone number and confirm the payment in the app.'}
             goToSectionRef={section4}
             scrollTo={scrollTo}
             showArrow={true}
