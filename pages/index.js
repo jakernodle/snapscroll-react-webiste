@@ -139,7 +139,7 @@ export default function Home() {
             headline={`I'm a Lead Mobile Engineer`}
             header={'Topaz Labs'}
             showAttributedSubheadline = {false}
-            subHeadlineText = {'The worlds best Ai Image Enhancement'}
+            subHeadlineText = {'Ai Image Enhancement'}
             paragraphText={`Topaz Labs has created the worlds best deep learning models for image enhancement. I'm bringing their models to mobile.`}
             goToSectionRef={section3}
             scrollTo={scrollTo}
